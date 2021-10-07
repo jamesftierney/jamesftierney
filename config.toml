@@ -1,71 +1,48 @@
-# Configuration of Academic
-# Documentation: https://sourcethemes.com/academic/
-#
-# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
-# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
+title = "James Tierney"
+baseURL = "https://example.com"
+languageCode = "en-us"
+theme = "gohugo-theme-ananke"
+themesDir = "themes"
+resourceDir = "resources"
 
-# Title of your site
-title = "James Fallows Tierney"
-
-# The URL of your site.
-# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
-
-# Enter a copyright notice to display in the site footer.
-# To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = ""
-
-# Enable analytics by entering your Google Analytics tracking ID
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
+enableRobotsTXT = true
 
-############################
-## Advanced options below ##
-############################
+[languages]
+  [languages.en]
+    title = "My blog"
+    weight = 1
+    contentDir = "content/en"
+  [languages.fr]
+    title = "Mon blogue"
+    weight = 2
+    contentDir = "content/fr"
 
-# Name of Academic theme folder in `themes/`.
-theme = "ananke"
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
-# Get last modified date for content from Git?
-enableGitInfo = false
-
-# Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
-defaultContentLanguageInSubdir = false
-removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
-
-paginate = 10  # Number of items per page in paginated lists.
-enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
-[outputs]
-  home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
-  section = [ "HTML", "RSS" ]
-
-[mediaTypes."application/manifest+json"]
-  suffixes = ["webmanifest"]
-
-[outputFormats.WebAppManifest]
-  mediaType = "application/manifest+json"
-  rel = "manifest"
-
-# Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
-[blackfriday]
-  hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
-	angledQuotes = false
-	latexDashes = true
-  extensions = ["backslashLineBreak"]
-
-[imaging]
-  resampleFilter = "lanczos"
-  quality = 90
-  anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
-
-# Taxonomies.
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  publication_type = "publication_types"
-  author = "authors"
+[params]
+  author = ""
+  favicon = ""
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = "https://twitter.com/GoHugoIO"
+  instagram = ""
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  recent_posts_number = 2
