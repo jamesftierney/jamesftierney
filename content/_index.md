@@ -1,6 +1,6 @@
 ---
 title: "James Fallows Tierney"
-featured_image: 'static/images/gohugo-default-sample-hero-image.jpg'
+featured_image: '/images/0ba1e391007f93d43575fb2e584ad367.jpeg'
 description: "Securities law, from left field."
 ---
-Hello world. What's new?
+New website, who's this?

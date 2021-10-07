@@ -8,4 +8,4 @@ menu: main
 
 ---
 
-You can find the most recent copy of my CV here.
+You can find the most recent public copy of [my CV here](/files/Tierney-CV.pdf).
