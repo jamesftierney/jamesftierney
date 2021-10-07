@@ -11,11 +11,11 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
 googleAnalytics = ""
 enableRobotsTXT = true
 
-[languages]
-  [languages.en]
-    title = "My blog"
-    weight = 1
-    contentDir = "content/en"
+#[languages]
+#  [languages.en]
+#    title = "My blog"
+#    weight = 1
+#    contentDir = "content"
 
 [sitemap]
   changefreq = "monthly"
