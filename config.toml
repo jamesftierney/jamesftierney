@@ -15,11 +15,7 @@ enableRobotsTXT = true
   [languages.en]
     title = "My blog"
     weight = 1
-    contentDir = "content/en"
-  [languages.fr]
-    title = "Mon blogue"
-    weight = 2
-    contentDir = "content/fr"
+    contentDir = "content"
 
 [sitemap]
   changefreq = "monthly"
