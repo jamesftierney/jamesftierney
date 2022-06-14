@@ -1,5 +1,5 @@
 ---
-title: "Gamification in Securities Regulation"
+title: "Investment Games"
 authors:
 - admin
 date: "2021-10-05T00:00:00Z"
@@ -15,7 +15,7 @@ publishDate: "2021-10-06T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "98 Nebraska Law Review — (forthcoming 2020)"
+publication: "Duke L. J. (forthcoming 2022)"
 publication_short: "Neb. L. Rev."
 
 abstract: ""
