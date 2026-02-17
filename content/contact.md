@@ -8,4 +8,6 @@ menu: main
 
 ---
 
-My contact information is available at my [Nebraska College of Law faculty website](https://law.unl.edu/james-f-tierney/). Email is the best way to reach me. You can also find me on [Bluesky](https://bsky.app/profile/jamesftierney.bsky.social) or [X](https://x.com/jamesftierney).
+I can be reached by email at jtierney1@illinoistech.edu, or by phone at (312) 906-5125. My office is at 565 W Adams St, Chicago, IL 60661.
+
+You can also find me on [Bluesky](https://bsky.app/profile/jamesftierney.bsky.social) or [X](https://x.com/jamesftierney).
